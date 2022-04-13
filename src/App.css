@@ -1,38 +1,56 @@
 .App {
   text-align: center;
+  padding:5rem;
+  background-color: #ccc;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Token{
+  padding:5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Filter{
+  background-color: #FFE184;
+  /* margin: 5px; */
+  /*font-weight: bolder; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.DeleteFilter{
+  background-color: #f32a52;
+  color:#ffffff;
 }
 
-.App-link {
-  color: #61dafb;
+.deleteBtn{
+  top: -10px;
+  position: relative;
+  left: -10px;
+  float:left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Label{
+  padding: 5px;
+  margin: 5px;
+  background-color: #FFE184;;
 }
+
+.Category{
+  background-color: brown;
+  color:white;
+  /* font-weight: normal;
+  font-size: medium; */
+  /* border-radius: 3px; */
+  /* padding-left: 3px;
+  padding-right: 3px; */
+}
+
+.SelectedLabel{
+  background-color: brown;
+  color:white;
+}
+
+/* #content{
+  font-size:large;
+}
+
+.mb-3{
+  margin:5px;
+} */
