@@ -6,6 +6,11 @@
 
 .Token{
   padding:5px;
+  margin-right: 2px;
+  margin-left: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  line-height: 2.5;
 }
 
 .Filter{
@@ -44,6 +49,25 @@
 
 .SelectedLabel{
   background-color: brown;
+  color:white;
+}
+
+.security{
+  background-color: blue;
+  color:white;
+}
+
+.election{
+  background-color: yellow;
+}
+
+.social{
+  background-color: red;
+  color:white;
+}
+
+.health{
+  background-color: purple;
   color:white;
 }
 
